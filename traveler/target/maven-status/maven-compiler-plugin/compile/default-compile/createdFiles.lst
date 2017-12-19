@@ -1,0 +1,15 @@
+com\travel\entity\UsTeamEntity.class
+com\travel\entity\GuideEntity.class
+com\travel\dao\AttractionInfoDao.class
+com\travel\controller\UserInfoController.class
+com\travel\dao\UserInfoDao.class
+com\travel\entity\AttractionInfoEntity.class
+com\travel\entity\CompanyEntity.class
+com\travel\entity\UserInfoEntity.class
+com\travel\dao\RouteDao.class
+com\travel\entity\TrafficEntity.class
+com\travel\controller\AttractionInfoController.class
+com\travel\entity\HotelEntity.class
+com\travel\entity\TeamEntity.class
+com\travel\entity\RouteEntity.class
+com\travel\entity\LoginfoEntity.class
