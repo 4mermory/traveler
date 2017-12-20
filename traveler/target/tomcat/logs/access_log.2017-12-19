@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [19/Dec/2017:19:15:01 +0800] "GET /success.jsp HTTP/1.1" 200 107 http-bio-80-exec-1 887
+0:0:0:0:0:0:0:1 - - [19/Dec/2017:19:15:19 +0800] "GET /selectOneUser.ahtml?attr_id=1 HTTP/1.1" 404 989 http-bio-80-exec-3 9
+0:0:0:0:0:0:0:1 - - [19/Dec/2017:19:15:26 +0800] "GET /selectOneUser.xhtml?attr_id=1 HTTP/1.1" 404 989 http-bio-80-exec-5 3
+0:0:0:0:0:0:0:1 - - [19/Dec/2017:19:16:52 +0800] "GET / HTTP/1.1" 200 57 http-bio-80-exec-1 1160
+0:0:0:0:0:0:0:1 - - [19/Dec/2017:19:16:57 +0800] "GET /selectOneUser.xhtml?attr_id=1 HTTP/1.1" 200 57 http-bio-80-exec-3 1753
+0:0:0:0:0:0:0:1 - - [19/Dec/2017:19:17:11 +0800] "GET /quesyAll.xhtml HTTP/1.1" 200 1982 http-bio-80-exec-5 24
