@@ -16,14 +16,4 @@ public class TrafficController {
 
 
 
-
-
-
-
-
-
-
-
-=======
->>>>>>> 52e0429ac671aeca9c74b72f35ef4d0869c24d9c
 }

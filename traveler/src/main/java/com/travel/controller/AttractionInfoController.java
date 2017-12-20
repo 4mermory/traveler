@@ -23,11 +23,7 @@ import java.util.List;
 public class AttractionInfoController {
 
     @Autowired
-\
-
     private AttractionInfoDao attractionInfoDao;
-            ;
-
 
     @RequestMapping("selectOneUser")
     public String selectOneUMethod(HttpServletRequest request, HttpServletResponse response) throws IOException {
