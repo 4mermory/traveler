@@ -23,7 +23,7 @@ import java.util.List;
 public class AttractionInfoController {
 
     @Autowired
-
+\
 
     private AttractionInfoDao attractionInfoDao;
             ;
