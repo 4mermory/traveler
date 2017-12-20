@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--导入jdbc.properties（性质占位符 property-placeholder）-->
+    <context:property-placeholder location="classpath:db.properties"></context:property-placeholder>
+
+    <!--配置数据源-->
+    <bean class="com.mchange.v2.c3p0.ComboPooledDataSource" id="dataSource">
+        <property name="jdbcUrl" value="${url}"></property>
+        <property name="driverClass" value="${driver_class}"></property>
+        <property name="user" value="${uname}"></property>
+        <property name="password" value="${password}"></property>
+        <property name="initialPoolSize" value="${initPoolSize}"></property>
+        <property name="maxPoolSize" value="${maxPoolSize}"></property>
+    </bean>
+
+    <!--配置SqlSessionFacatoryBean-->
+
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="sqlSessionFactory">
+        <property name="dataSource" ref="dataSource"></property>                               <!--依赖数据源 dataSource-->
+        <property name="configLocation" value="classpath:mybatis_config.xml"></property>       <!--引入/管理mybatis_config.xml 配置文件类名-->
+        <property name="mapperLocations" value="classpath:com/travel/entity/*.xml"></property> <!--扫描所有实体类下的.xml 配置文件-->
+    </bean>
+
+    <!--扫描到所有的mapper代理接口-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.travel.dao"></property>
+    </bean>
+
+</beans>
