@@ -38,6 +38,8 @@ public class AttractionInfoController {
 
     }
 
+
+
     @RequestMapping("quesyAll")
     public void selectAllUMethod( HttpServletResponse response) throws IOException {
         System.out.println("sssss");
