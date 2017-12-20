@@ -31,6 +31,7 @@ public class AttractionInfoController {
         AttractionInfoEntity attractionInfoEntity = attractionInfoDao.queryOne(Integer.parseInt(attr_id));
         response.getWriter().write(JSON.toJSONString(attractionInfoEntity));
         return  "index";
+
     }
 
     @RequestMapping("quesyAll")
