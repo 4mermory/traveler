@@ -1,13 +1,26 @@
 com\travel\entity\UsTeamEntity.class
+<<<<<<< HEAD
 com\travel\dao\AttractionInfoDao.class
 com\travel\dao\UserInfoDao.class
 com\travel\entity\CompanyEntity.class
 com\travel\entity\UserInfoEntity.class
 com\travel\controller\TrafficController.class
+=======
+com\travel\entity\GuideEntity.class
+com\travel\dao\AttractionInfoDao.class
+com\travel\controller\UserInfoController.class
+com\travel\dao\UserInfoDao.class
+com\travel\entity\AttractionInfoEntity.class
+com\travel\entity\CompanyEntity.class
+com\travel\entity\UserInfoEntity.class
+com\travel\dao\RouteDao.class
+com\travel\entity\TrafficEntity.class
+>>>>>>> 52e0429ac671aeca9c74b72f35ef4d0869c24d9c
 com\travel\controller\AttractionInfoController.class
 com\travel\entity\HotelEntity.class
 com\travel\entity\TeamEntity.class
 com\travel\entity\RouteEntity.class
+<<<<<<< HEAD
 com\travel\entity\GuideEntity.class
 com\travel\controller\UserInfoController.class
 com\travel\entity\AttractionInfoEntity.class
@@ -15,4 +28,6 @@ com\travel\dao\RouteDao.class
 com\travel\controller\TeamController.class
 com\travel\entity\TrafficEntity.class
 com\travel\dao\TeamDao.class
+=======
+>>>>>>> 52e0429ac671aeca9c74b72f35ef4d0869c24d9c
 com\travel\entity\LoginfoEntity.class
